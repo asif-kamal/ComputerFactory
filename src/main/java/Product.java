@@ -11,3 +11,11 @@ public class Product {
         this.manufacturer = manufacturer;
     }
 }
+
+class Monitor extends Product {
+    public Monitor(String model, String manufacturer) {
+        super(model, manufacturer);
+    }
+
+
+}
