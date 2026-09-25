@@ -17,5 +17,15 @@ class Monitor extends Product {
         super(model, manufacturer);
     }
 
+class MotherBoard extends Product {
+    public MotherBoard(String model, String manufacturer) {
+        super(model, manufacturer);
+    }
+}
 
+class ComputerCase extends Product {
+    public ComputerCase(String model, String manufacturer) {
+        super(model, manufacturer);
+    }
+}
 }
