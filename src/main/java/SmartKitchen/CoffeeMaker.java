@@ -1,3 +1,5 @@
+package SmartKitchen;
+
 public class CoffeeMaker {
 
     private boolean hasWorkToDo;

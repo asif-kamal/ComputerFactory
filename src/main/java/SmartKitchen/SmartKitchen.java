@@ -1,8 +1,16 @@
+package SmartKitchen;
+
 public class SmartKitchen {
 
     private CoffeeMaker coffeeMaker;
     private Refrigerator refrigerator;
     private Dishwasher dishwasher;
+
+    public SmartKitchen(CoffeeMaker coffeeMaker, Refrigerator refrigerator, Dishwasher dishwasher) {
+        this.coffeeMaker = coffeeMaker;
+        this.refrigerator = refrigerator;
+        this.dishwasher = dishwasher;
+    }
 
     public void addWater() {
         coffeeMaker.brewCoffee();
@@ -12,8 +20,8 @@ public class SmartKitchen {
         refrigerator.orderFood();
     }
 
-    public void loadDishes() {
-        dishwasher.doDishes();
+    public Dishwasher getDishwasher() {
+        return dishwasher;
     }
 
     public void doKitchenWork() {

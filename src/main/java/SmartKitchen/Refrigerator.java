@@ -1,3 +1,5 @@
+package SmartKitchen;
+
 public class Refrigerator {
 
     private boolean hasWorkToDo;

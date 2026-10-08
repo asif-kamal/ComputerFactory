@@ -1,3 +1,5 @@
+package SmartKitchen;
+
 public class Dishwasher {
 
     private boolean hasWorkToDo;
