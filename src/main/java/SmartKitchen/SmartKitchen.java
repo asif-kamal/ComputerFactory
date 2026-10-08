@@ -7,9 +7,9 @@ public class SmartKitchen {
     private Dishwasher dishwasher;
 
     public SmartKitchen(CoffeeMaker coffeeMaker, Refrigerator refrigerator, Dishwasher dishwasher) {
-        this.coffeeMaker = coffeeMaker;
-        this.refrigerator = refrigerator;
-        this.dishwasher = dishwasher;
+        this.coffeeMaker = new CoffeeMaker();
+        this.refrigerator = new Refrigerator();
+        this.dishwasher = new Dishwasher();
     }
 
     public void addWater() {
